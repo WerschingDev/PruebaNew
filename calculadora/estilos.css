@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: gray;
+
+}
+
+body div.micalculadora{
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    margin: auto;
+    background: rgb(12, 58, 117);
+    border-radius: 10px;
+}
+
+div input[type = 'button'], button{
+
+    width: 40px;
+    margin: 2px 0;
+    background: #a4a3a3;
+}
+
+div input[type = 'text']{
+
+    height: 30px;
+    width: 200px;
+    background: #e7e0d5;
+    border-radius: 4px;
+    border: 2px solid black;
+}
+
+div.resultado input , div.resultado button {
+    height: 20px;
+    width: 40px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+#suma ,#resta, #multi, #porcent {
+    background-color: cadetblue;
+}
